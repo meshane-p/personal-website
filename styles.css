@@ -166,11 +166,18 @@ hr {
     text-align: center;
 }
 
-.project1 h2, p {
-    text-align: center;
-}
-
 .resumestuff p {
     text-align: left;
     margin-left: 30px;
+}
+
+/* projects part */
+.projects h2, p {
+    text-align: left;
+    margin-left: 30px
+
+}
+
+.projects hr {
+    width: 100%;
 }
