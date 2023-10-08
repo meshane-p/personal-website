@@ -50,7 +50,6 @@ nav a {
 header {
     background-color: white;
     text-align: center;
-    padding: 2rem 0;
 }
 
 .header-content {
@@ -60,17 +59,39 @@ header {
 }
 
 .section {
-    display: flex;
+    display:inline-flex;
     align-items: center;
     justify-content: space-between;
+}
 
+.section1 {
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(teach1.jpg);
+    height: 600px;
+}
 
+.section2 {
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(cs.jpg);
+    height: 600px;
+}
+
+.section3 {
+    display:inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(greenery.jpg);
+    height: 600px;
 }
 
 /* pic */
 .section-image img {
     max-width: 100%; /* Adjust the image width as needed */
-    width: 400px;
+    width: 350px;
     height: auto; /* Maintain aspect ratio */
     margin-left: 240px;
 }
@@ -78,9 +99,8 @@ header {
 /* about me section */
 .section-text {
     flex: 1; /* Allow the text to expand and fill available space */
-    padding: 20px; /* Add padding for spacing */
-    margin-right: 30px;
-    font-size: larger;
+    margin-right: 80px;
+    font-size: 21.5px;
     font-family: 'Playfair Display', serif;
     color: #333;
     text-align: justify;
@@ -95,9 +115,10 @@ header {
 
 .section-text p {
     max-width: 3000px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
-
-
 
 header img {
     border-radius: 50%;
@@ -118,13 +139,17 @@ body, h1, h2, p, h3 {
 }
 
 /* resume content */
+.resumestuff {
+    background-color: antiquewhite;
+}
+
 .resumestuff h2, h3{
     text-align: left;
     margin-left: 30px;
 }
 
 .resumestuff hr {
-    width: 100%;
+    width: 96%;
     text-align: left;
 }
 
@@ -139,27 +164,22 @@ body, h1, h2, p, h3 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
     font-size: 20px;
+    background-color: antiquewhite ;
 }
 
 .contact-section a {
     text-decoration: none;
     color:#333
-}
 
-.contact-section img {
-    width: 40px; /* Adjust the width as needed */
-    height: 40px; /* Adjust the height as needed */
-    float: left;
-    margin-right: 10px; /* Add spacing between image and text */
 }
 
 /* horizontal line */
 hr {
-    width: 30%; /* Set the desired width as a percentage of the parent container's width */
-    margin: 20px auto; /* Add margin for spacing and center the line horizontally */
+    width: 30%; 
+    margin: 20px auto;
 }
 
 .footer p {
@@ -179,6 +199,12 @@ hr {
 }
 
 .projects hr {
-    width: 100%;
+    width: 96%;
+    margin-top: 0;
 }
+
+.projects {
+    background-color: antiquewhite;
+}
+
 
