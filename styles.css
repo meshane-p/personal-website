@@ -1,0 +1,172 @@
+/* styles.css */
+
+/* back button */
+.top-left-link {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    color: #fff; 
+    text-decoration: none; 
+}
+
+/* navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+/* Meshane Peiris */
+nav h1 {
+    font-size: 100px; /* Increase the size */
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+}
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+}
+
+/* resume, portfolio, contact */
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    color: #CACFD2;
+    text-align: center;
+}
+
+/* middle section */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center; /* Vertically center-align the content */
+
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+/* pic */
+.section-image img {
+    max-width: 100%; /* Adjust the image width as needed */
+    width: 400px;
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 240px;
+}
+
+/* about me section */
+.section-text {
+    flex: 1; /* Allow the text to expand and fill available space */
+    padding: 20px; /* Add padding for spacing */
+    margin-right: 30px;
+    font-size: larger;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    text-align: justify;
+}
+
+/* about me*/
+.section-text h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.section-text p {
+    max-width: 3000px;
+}
+
+
+
+header img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+body, h1, h2, p, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+/* resume content */
+.resumestuff h2, h3, p{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.resumestuff hr {
+    width: 100%;
+    text-align: left;
+}
+
+.year-info {
+    float: right;
+    margin-right: 30px;
+}
+
+/* contact section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.contact-section a {
+    text-decoration: none;
+    color:#333
+}
+
+.contact-section img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    float: left;
+    margin-right: 10px; /* Add spacing between image and text */
+}
+
+/* horizontal line */
+hr {
+    width: 30%; /* Set the desired width as a percentage of the parent container's width */
+    margin: 20px auto; /* Add margin for spacing and center the line horizontally */
+}
+
+.footer p {
+    text-align: center;
+}
+
+.project1 h2, p {
+    text-align: center;
+}
+
