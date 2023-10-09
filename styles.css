@@ -145,7 +145,7 @@ body, h1, h2, p, h3 {
 
 .resumestuff h2, h3{
     text-align: left;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 .resumestuff hr {
@@ -155,7 +155,7 @@ body, h1, h2, p, h3 {
 
 .year-info {
     float: right;
-    margin-right: 30px;
+    margin-right: 60px;
 }
 
 /* contact section */
@@ -188,14 +188,14 @@ hr {
 
 .resumestuff p {
     text-align: left;
-    margin-left: 30px;
+    margin-left: 60px;
 }
 
 /* projects part */
 .projects h2, p{
     text-align: left;
-    margin-left: 30px
-
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .projects hr {
@@ -205,6 +205,35 @@ hr {
 
 .projects {
     background-color: antiquewhite;
+}
+
+.middle-section {
+    background-color: #f5f5f5;
+ 
+    position: relative;
+}
+
+.middle-section::before,
+.middle-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20px; /* Adjust the width of the bars as needed */
+    background-color: #e1d3c1; /* Color of the bars */
+}
+
+.middle-section::before {
+    left: 0;
+}
+
+.middle-section::after {
+    right: 0;
+}
+
+/* Style the middle content */
+.middle-content {
+    background-color: antiquewhite; /* Adjust this color as needed */
 }
 
 
