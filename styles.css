@@ -24,6 +24,7 @@ nav h1 {
     text-align: center;
     font-family: 'Playfair Display', serif;
     color: white;
+    text-shadow: 10px -10px 10px black;
 }
 
 
@@ -44,6 +45,7 @@ nav a {
     font-weight: bold;
     color: #CACFD2;
     text-align: center;
+    text-shadow: 10px -5px 10px black;
 }
 
 /* middle section */
@@ -68,8 +70,12 @@ header {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(teach1.jpg);
+    background-image: url(pic3.jpg);
     height: 600px;
+}
+
+.section1 p {
+    color: black
 }
 
 .section2 {
@@ -84,7 +90,7 @@ header {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(greenery.jpg);
+    background-image: url(pic3.jpg);
     height: 600px;
 }
 
@@ -113,7 +119,21 @@ header {
     text-align: center;
 }
 
-.section-text p {
+.section1 p {
+    max-width: 3000px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section2 p {
+    max-width: 3000px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section3 p {
     max-width: 3000px;
     color:whitesmoke;
     text-align: center;
@@ -140,22 +160,31 @@ body, h1, h2, p, h3 {
 
 /* resume content */
 .resumestuff {
-    background-color: antiquewhite;
+    background-image: url(pic3.jpg);
 }
 
 .resumestuff h2, h3{
     text-align: left;
     margin-left: 60px;
+    color: whitesmoke;
 }
 
 .resumestuff hr {
     width: 96%;
     text-align: left;
+    color: whitesmoke;
 }
 
 .year-info {
     float: right;
     margin-right: 60px;
+    color: whitesmoke;
+}
+
+.resumestuff p {
+    text-align: left;
+    margin-left: 60px;
+    color: whitesmoke;
 }
 
 /* contact section */
@@ -167,13 +196,17 @@ body, h1, h2, p, h3 {
     margin-bottom: 0px;
     margin-top: 0px;
     font-size: 20px;
-    background-color: antiquewhite ;
+    background-image: url(pic3.jpg);
 }
 
 .contact-section a {
     text-decoration: none;
-    color:#333
+    color:whitesmoke
 
+}
+
+.contact-section p {
+    color:whitesmoke
 }
 
 /* horizontal line */
@@ -186,16 +219,13 @@ hr {
     text-align: center;
 }
 
-.resumestuff p {
-    text-align: left;
-    margin-left: 60px;
-}
-
 /* projects part */
 .projects h2, p{
     text-align: left;
     margin-left: 60px;
     margin-right: 60px;
+    color:whitesmoke;
+    text-decoration: none;
 }
 
 .projects hr {
@@ -205,8 +235,10 @@ hr {
 
 .projects {
     background-color: antiquewhite;
+    background-image: url(pic3.jpg);
 }
 
+/* bars */
 .middle-section {
     background-color: #f5f5f5;
  
@@ -219,8 +251,8 @@ hr {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 20px; /* Adjust the width of the bars as needed */
-    background-color: #e1d3c1; /* Color of the bars */
+    width: 20px; 
+    background-color: #222
 }
 
 .middle-section::before {
@@ -235,5 +267,37 @@ hr {
 .middle-content {
     background-color: antiquewhite; /* Adjust this color as needed */
 }
+
+/* load in animation */
+.animate-element {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  .animate-element.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+ #animated-text {
+    max-width: 3000px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ #animated-text2 {
+    max-width: 3000px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
+
+ #animated-text3 {
+    max-width: 3000px;
+    color:whitesmoke;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
 
 
