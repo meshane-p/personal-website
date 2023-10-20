@@ -11,7 +11,9 @@
 
 /* navigation bar */
 nav {
-    background-color: #333;
+    background-image: url(wp8292644.jpg);
+    background-size: cover;
+    background-position: center center;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -70,8 +72,7 @@ header {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(pic3.jpg);
-    height: 600px;
+    height: 400px;
 }
 
 .section1 p {
@@ -82,16 +83,14 @@ header {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(cs.jpg);
-    height: 600px;
+    height: 400px;
 }
 
 .section3 {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    background-image: url(pic3.jpg);
-    height: 600px;
+    height: 400px;
 }
 
 /* pic */
@@ -105,7 +104,7 @@ header {
 /* about me section */
 .section-text {
     flex: 1; /* Allow the text to expand and fill available space */
-    margin-right: 80px;
+    margin-right: 300px;
     font-size: 21.5px;
     font-family: 'Playfair Display', serif;
     color: #333;
@@ -281,21 +280,21 @@ hr {
 
  #animated-text {
     max-width: 3000px;
-    color:whitesmoke;
+    color:black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
  }
 
  #animated-text2 {
     max-width: 3000px;
-    color:whitesmoke;
+    color:black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
  }
 
  #animated-text3 {
     max-width: 3000px;
-    color:whitesmoke;
+    color:black;
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
  }
