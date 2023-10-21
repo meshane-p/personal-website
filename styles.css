@@ -1,6 +1,34 @@
-/* styles.css */
+/* general settings */
+body, h1, h2, p, h3 {
+    margin: 0;
+    padding: 0;
+}
 
-/* back button */
+/* HR */
+hr {
+    width: 30%; 
+    margin: 20px auto;
+}
+
+/* FOOTER*/
+footer {
+    background-color: whitesmoke;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.footer p {
+    text-align: center;
+    color:black
+}
+
+
+
+
+
+
+
+/* BACK */
 .top-left-link {
     position: absolute;
     top: 20px; 
@@ -9,9 +37,15 @@
     text-decoration: none; 
 }
 
-/* navigation bar */
+
+
+
+
+
+
+/* TOP BAR ON HOME PAGE*/
 nav {
-    background-image: url(wp8292644.jpg);
+    background-image: url(background.jpg);
     background-size: cover;
     background-position: center center;
     color: #fff;
@@ -20,16 +54,16 @@ nav {
     font-family: 'Playfair Display', serif;
 }
 
-/* Meshane Peiris */
+/* MESHANE PEIRIS */
 nav h1 {
-    font-size: 100px; /* Increase the size */
+    font-size: 75px;
     text-align: center;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Dancing Script', cursive;
     color: white;
-    text-shadow: 10px -10px 10px black;
+
 }
 
-
+/* LIST BELOW NAME */
 nav ul {
     list-style: none;
 }
@@ -40,17 +74,61 @@ nav ul li {
     text-align: center;
 }
 
-/* resume, portfolio, contact */
+/* EACH WORD */
 nav a {
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-weight: bold;
-    color: #CACFD2;
     text-align: center;
-    text-shadow: 10px -5px 10px black;
 }
 
-/* middle section */
+#navbar {
+    position: relative;
+    background-color: #333;
+    color: #fff; 
+    padding: 15px;
+    transition: top 2s; 
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+/* ABOUT ME */
+.about-me h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-me p {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color:black;
+    margin-left:400px;
+    margin-right: 400px;
+    text-align:justify;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.about-me:hover {
+    background-color: #E0E0E0;
+}
+
+
+
+
+
+
+
+/* MIDDLE SECTIONS IN HOME PAGE */
 header {
     background-color: white;
     text-align: center;
@@ -58,7 +136,7 @@ header {
 
 .header-content {
     display: flex;
-    align-items: center; /* Vertically center-align the content */
+    align-items: center; 
 
 }
 
@@ -75,10 +153,6 @@ header {
     height: 400px;
 }
 
-.section1 p {
-    color: black
-}
-
 .section2 {
     display:inline-flex;
     align-items: center;
@@ -93,179 +167,167 @@ header {
     height: 400px;
 }
 
-/* pic */
-.section-image img {
-    max-width: 100%; /* Adjust the image width as needed */
-    width: 350px;
-    height: auto; /* Maintain aspect ratio */
-    margin-left: 240px;
+.section4 {
+    background-color: #333;
 }
 
-/* about me section */
+/* IMAGES */
+.section-image img {
+    width: 200px;
+    height: 200px; 
+    margin-left: 500px;
+    margin-right: 100px;
+    border-radius: 10%;
+}
+
+/* TEXT */
 .section-text {
-    flex: 1; /* Allow the text to expand and fill available space */
-    margin-right: 300px;
-    font-size: 21.5px;
+    flex: 1; 
+    margin-right: 500px;
+    font-size: 15px;
     font-family: 'Playfair Display', serif;
     color: #333;
     text-align: justify;
 }
 
-/* about me*/
-.section-text h2 {
-    font-size: 30px;
+.section-text h1 {
+    color:blue;
+    font-size: 18px;
     margin-bottom: 10px;
-    text-align: center;
-}
-
-.section1 p {
-    max-width: 3000px;
-    color:whitesmoke;
-    text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.section2 p {
-    max-width: 3000px;
-    color:whitesmoke;
-    text-align: center;
+.section-text h2 {
+    color:green;
+    font-size: 15px;
+    margin-bottom: 5px;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.section3 p {
-    max-width: 3000px;
-    color:whitesmoke;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+.section1:hover {
+    background-color:#E0E0E0;
 }
 
-header img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    margin-right: 200px;
+.section2:hover {
+    background-color:#E0E0E0;
 }
 
-footer {
+.section3:hover {
+    background-color:#E0E0E0;
+}
+
+
+
+
+
+
+
+/* new project section */
+.projects-section {
     background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
 }
 
-body, h1, h2, p, h3 {
-    margin: 0;
-    padding: 0;
-}
-
-/* resume content */
-.resumestuff {
-    background-image: url(pic3.jpg);
-}
-
-.resumestuff h2, h3{
-    text-align: left;
-    margin-left: 60px;
-    color: whitesmoke;
-}
-
-.resumestuff hr {
-    width: 96%;
-    text-align: left;
-    color: whitesmoke;
-}
-
-.year-info {
-    float: right;
-    margin-right: 60px;
-    color: whitesmoke;
-}
-
-.resumestuff p {
-    text-align: left;
-    margin-left: 60px;
-    color: whitesmoke;
-}
-
-/* contact section */
-.contact-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.projects-section h1 {
     text-align: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 20px;
-    background-image: url(pic3.jpg);
-}
-
-.contact-section a {
-    text-decoration: none;
-    color:whitesmoke
-
-}
-
-.contact-section p {
-    color:whitesmoke
-}
-
-/* horizontal line */
-hr {
-    width: 30%; 
-    margin: 20px auto;
-}
-
-.footer p {
-    text-align: center;
-}
-
-/* projects part */
-.projects h2, p{
-    text-align: left;
-    margin-left: 60px;
-    margin-right: 60px;
-    color:whitesmoke;
+    font-size: 40px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
 }
 
-.projects hr {
-    width: 96%;
-    margin-top: 0;
+.projects-section h2 {
+    text-align: center;
+    font-size: 40px;
+    color:orange;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
 }
 
-.projects {
-    background-color: antiquewhite;
-    background-image: url(pic3.jpg);
+
+
+.projects-section table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    
 }
 
-/* bars */
-.middle-section {
-    background-color: #f5f5f5;
- 
-    position: relative;
+.projects-section p {
+    font-size: 15px;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
 }
 
-.middle-section::before,
-.middle-section::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 20px; 
-    background-color: #222
+.projects-section a {
+    text-decoration: none;
 }
 
-.middle-section::before {
-    left: 0;
+.projects-section h3 {
+    font-size: 8px;
+    color:white
 }
 
-.middle-section::after {
-    right: 0;
+.projects-section td {
+    width: 400px;
 }
 
-/* Style the middle content */
-.middle-content {
-    background-color: antiquewhite; /* Adjust this color as needed */
+.projects-section h2:hover {
+    color:rgba(119, 78, 2, 0.486)
 }
+
+
+
+
+
+
+
+
+
+/* contacts section */
+.contacts-section {
+    background-color: white;
+}
+
+.contact-me h2 {
+    text-align: center;
+    font-size: 40px;
+   
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contact-me table {
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    
+}
+
+.contact-me:hover {
+    background-color: #E0E0E0;
+}
+
+.contact-me p {
+    color:white
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* load in animation */
 .animate-element {

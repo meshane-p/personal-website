@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
   const textElement = document.getElementById("animated-text");
-  const initialText = "My name is Meshane Peiris. I am a sophomore at Stony Brook University. I am currently dedicated to my pursuit of dual bachelor's degrees in computer science and applied mathematics. With over five years of experience as an educator at Royal Test Prep, I have had the privilege of teaching mathematics and computer science to students spanning grades three through twelve. This teaching experience has honed my analytical and problem-solving skills, equipping me with the ability to tackle complex challenges in both mathematical and computer science domains";
+  const initialText = "My academic journey at Stony Brook includes working towards a Bachelor of Computer Science degree, which I began in August 2022 and anticipate completing in June 2026. Throughout my coursework, I've covered a wide range of subjects, such as Computer Science Principles, Introduction to Object-Oriented Programming, Data Structures and Algorithms, and Foundations of Computer Science. This experience has been instrumental in building a solid foundation in the field of computer science";
   let animationIndex = 0;
   let addDot = true;
   
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(toggleDot, 500); // Adjust the interval as needed
 
   const textElement2 = document.getElementById("animated-text2"); 
-  const initialText2 = "My journey in computer science began with a strong curiosity to understand the digital world. Throughout my academic pursuits, I've developed a solid foundation in programming languages like Python, Java, HTML, CSS, and JavaScript. I'm enthusiastic about solving challenging problems and exploring the endless possibilities that technology offers. With a dedication to continuous learning, I look forward to applying my skills and knowledge to contribute to innovative projects in the ever-evolving field of computer science and its subsidaries such as mathematics"; 
+  const initialText2 = "In addition to my pursuit of a Bachelor of Computer Science degree at Stony Brook University, I am also working towards a Bachelor of Applied Mathematics, with an expected graduation date in June 2026. This academic journey, which I embarked on in August 2022, has included courses such as Calculus III With Applications, Applied Calculus IV: Differential Equations, Finite Mathematical Structures, and Introduction to Linear Algebra. These courses have provided me with a very strong foundation in applied mathematics and have expanded my knowledge and skills in this field"; 
   let animationIndex2 = 0; 
   let addDot2 = true; 
   
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setInterval(toggleDot2, 500); 
 
   const textElement3 = document.getElementById("animated-text3"); 
-  const initialText3 = "Beyond academics and coding, I'm deeply committed to community service. As a Litter Ambassador with NYC Parks, I actively contribute to environmental conservation by promoting cleanliness in public parks, especially during challenging times like the peak of the COVID-19 pandemic. I firmly believe in the importance of giving back to our communities and aspire to leverage my technical skills to address real-world issues and make a meaningful difference to the environment and the world around me"; 
+  const initialText3 = "During my time at Stuyvesant High School, a specialized high school, I attended from September 2018 to June 2022. I pursued a rigorous academic path that included several Advanced Placement (AP) courses, such as AP Calculus BC, AP Macroeconomics, and AP Microeconomics. In addition to these courses, I had the opportunity to explore the world of computer science through an introductory program that introduced me to programming languages like Racket and NetLogo. This experience allowed me to develop a very strong foundation in computer science during my high school years"; 
   let animationIndex3 = 0; 
   let addDot3 = true; 
   
@@ -84,7 +84,19 @@ document.addEventListener("DOMContentLoaded", function() {
   
   setInterval(toggleDot3, 500); 
   
-
+const navbar = document.getElementById("navbar");
+let prevScrollPos = window.pageYOffset;
+  
+window.addEventListener("scroll", () => {
+    const currentScrollPos = window.pageYOffset;
+    if (prevScrollPos > currentScrollPos) {
+        navbar.style.top = "0";
+    } else {
+        navbar.style.top = `-${navbar.clientHeight}px`;
+    }
+    prevScrollPos = currentScrollPos;
+  });
+  
   
 
   
