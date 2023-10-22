@@ -304,6 +304,8 @@ header {
 
 
 
+
+
 /* contacts section */
 .contacts-section {
     background-color: white;
@@ -311,7 +313,7 @@ header {
 
 .contact-me h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 4vh;
    
     font-family: 'Courier New', Courier, monospace;
 }
@@ -330,6 +332,14 @@ header {
 .contact-me p {
     color:white
 }
+
+.contact-me h3 {
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 
 
 
