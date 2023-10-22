@@ -56,7 +56,7 @@ nav {
 
 /* MESHANE PEIRIS */
 nav h1 {
-    font-size: 75px;
+    font-size: 5vw ;
     text-align: center;
     font-family: 'Dancing Script', cursive;
     color: white;
@@ -109,11 +109,11 @@ nav a {
 
 .about-me p {
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 0.9vw;
     text-align: center;
     color:black;
-    margin-left:400px;
-    margin-right: 400px;
+    margin-left: 20vw;
+    margin-right: 20vw;
     text-align:justify;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -150,21 +150,21 @@ header {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    height: 400px;
+    height: 40vh;
 }
 
 .section2 {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    height: 400px;
+    height: 40vh;
 }
 
 .section3 {
     display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    height: 400px;
+    height: 40vh;
 }
 
 .section4 {
@@ -173,18 +173,18 @@ header {
 
 /* IMAGES */
 .section-image img {
-    width: 200px;
-    height: 200px; 
-    margin-left: 500px;
-    margin-right: 100px;
+    width: 10vw;
+    height: 20vh; 
+    margin-left: 25vw;
+    margin-right: 50px;
     border-radius: 10%;
 }
 
 /* TEXT */
 .section-text {
     flex: 1; 
-    margin-right: 500px;
-    font-size: 15px;
+    margin-right: 25vw;
+    font-size: 0.8vw;
     font-family: 'Playfair Display', serif;
     color: #333;
     text-align: justify;
