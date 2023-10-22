@@ -96,6 +96,23 @@ window.addEventListener("scroll", () => {
     }
     prevScrollPos = currentScrollPos;
   });
+
+
+// Get all the "Learn More" buttons
+const buttons = document.querySelectorAll('.learn-more-button');
+
+// Loop through each button and add a click event listener
+buttons.forEach(function (button) {
+  button.addEventListener('click', function () {
+    // Get the details element associated with this button
+    const details = this.nextElementSibling;
+
+    // Toggle the visibility of the details
+    details.style.display = details.style.display === 'block' ? 'none' : 'block';
+  });
+});
+
+
   
   
 

@@ -28,20 +28,6 @@ footer {
 
 
 
-/* BACK */
-.top-left-link {
-    position: absolute;
-    top: 20px; 
-    left: 20px; 
-    color: #fff; 
-    text-decoration: none; 
-}
-
-
-
-
-
-
 
 /* TOP BAR ON HOME PAGE*/
 nav {
@@ -225,19 +211,16 @@ header {
 /* new project section */
 .projects-section {
     background-color: #333;
+    display: flex;
+    justify-content: space-between; 
+    
 }
+
+
 
 .projects-section h1 {
     text-align: center;
-    font-size: 40px;
-    color:white;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-}
-
-.projects-section h2 {
-    text-align: center;
-    font-size: 40px;
+    font-size: 4vh;
     color:orange;
     font-family: 'Dancing Script', cursive;
     text-decoration: none;
@@ -253,7 +236,7 @@ header {
 }
 
 .projects-section p {
-    font-size: 15px;
+    font-size: 1.5vh;
     color:white;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
@@ -270,13 +253,49 @@ header {
 }
 
 .projects-section td {
-    width: 400px;
+    width: 30vw;
 }
 
-.projects-section h2:hover {
+.projects-section h1:hover {
     color:rgba(119, 78, 2, 0.486)
 }
 
+.projects1 {
+    flex: 1; 
+    padding: 20px; 
+    border: 1px solid #333; 
+
+}
+
+.projects1:hover {
+    background-color: #3d3d3d;
+    
+}
+
+/* LEARN MORE BUTTON */
+.visible {
+    display: block; 
+  }
+  
+
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #242424; 
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-left: 25vh;
+    margin-bottom: 5vh;
+}
+
+.learn-more-button:hover {
+    background-color: #333; 
+}
 
 
 
